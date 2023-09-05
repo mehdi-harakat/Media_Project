@@ -1,0 +1,15 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b293e5;
+}
+
+section .posts .card-header img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}

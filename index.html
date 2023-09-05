@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Social Media</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Css File -->
+		<link rel="stylesheet" href="Css/main.css" />
+		<!-- JavaScript File -->
+		<script src="JavaScript/main.js" defer></script>
+
+		<!-- Bootstrap Css File -->
+		<link
+			rel="stylesheet"
+			href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+		/>
+		<!-- Bootstrap JavaScript File -->
+		<script
+			src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+			defer
+		></script>
+	</head>
+
+	<body>
+		<header class="mb-4">
+			<div class="container-sm">
+				<nav
+					class="navbar navbar-expand-lg bg-body-tertiary shadow col-6 ms-auto me-auto"
+				>
+					<div class="container-fluid">
+						<a class="navbar-brand fw-bold text-primary" href="#">With-Kom</a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent"
+							aria-controls="navbarSupportedContent"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">profile</a>
+								</li>
+							</ul>
+							<form class="d-flex" role="search">
+								<button class="btn btn-outline-success me-3" type="submit">
+									login
+								</button>
+								<button type="button" class="btn btn-outline-primary">
+									Register
+								</button>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<section class="text-capitalize mb-5">
+			<div class="container-sm pt-2 pb-2 ">
+				<div class="posts col-6 ms-auto me-auto">
+					<div class="card shadow-sm ms-auto me-auto">
+						<div class="card-header bg-primary-subtle">
+              <img class="me-2 border border-3 border-light-subtle rounded-circle" src="Images/img-2.jpg" alt="">
+              <b>mehdi harakat</b>
+            </div>
+
+            <div class="card-body">
+              <img class="w-100" src="Images/cat-01.jpg" alt="">
+              <p class="text-body-tertiary fs-6 mt-2">2 min ago</p>
+							<h5 class="card-title">hello world</h5>
+							<p class="card-text fs-6">
+								With supporting text below as a natural lead-in to additional
+								content.
+							</p>
+              <hr>
+              <div class="comment d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                  <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+                </svg>
+                <p class="mb-0 ms-2">(3) comments</p>
+              </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
